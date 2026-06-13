@@ -8,18 +8,21 @@ export default function Impressum() {
           ← Zurück
         </Link>
         <h1 className="text-3xl font-bold text-[var(--navy)] mb-8">Impressum</h1>
-        <div className="prose text-slate-600 space-y-4 text-sm leading-relaxed">
-          <p>
-            <strong className="text-[var(--navy)]">Angaben gemäss § 5 TMG</strong><br />
-            Dirk Walter<br />
-            custain<br />
-            Köln
-          </p>
-          <p>
-            <strong className="text-[var(--navy)]">Kontakt</strong><br />
-            E-Mail: dirk.walter@custain.de
-          </p>
-          <p className="text-[var(--muted)] italic">Vollständige Adresse wird vor Launch ergänzt.</p>
+        <div className="text-slate-600 space-y-6 text-sm leading-relaxed">
+          <div>
+            <p className="font-semibold text-[var(--navy)] mb-1">Angaben gemäss § 5 TMG</p>
+            <p>
+              Dirk Walter<br />
+              custain<br />
+              Customer Management Beratung<br />
+              Brüsseler Str. 92<br />
+              50672 Köln
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-[var(--navy)] mb-1">Kontakt</p>
+            <p>E-Mail: info@custain.de</p>
+          </div>
         </div>
       </div>
     </div>
