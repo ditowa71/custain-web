@@ -138,7 +138,7 @@ function UeberDirk() {
               Seit der Gründung von custain unterstützt er Unternehmen dabei, Kundenpotenziale systematisch zu erschliessen, und entwickelt mit Ambit eine eigene KI-Lösung für den Karrieremarkt.
             </p>
             <a
-              href="https://www.linkedin.com/in/dirk-walter-custain/"
+              href="https://www.linkedin.com/in/dirkthomaswalter/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[var(--teal)] font-medium hover:underline"
@@ -217,12 +217,12 @@ function Kontakt() {
             dirk.walter@custain.de
           </a>
           <a
-            href="https://www.linkedin.com/in/dirk-walter-custain/"
+            href="https://www.linkedin.com/in/dirkthomaswalter/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-white transition-colors text-sm"
           >
-            LinkedIn: linkedin.com/in/dirk-walter-custain →
+            LinkedIn: linkedin.com/in/dirkthomaswalter →
           </a>
         </div>
       </div>
