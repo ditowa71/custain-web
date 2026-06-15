@@ -250,20 +250,26 @@ section { padding: 104px 0; }
 }
 .chip:hover { border-color: #7FB7B0; color: #fff; background: rgba(127,183,176,0.10); }
 .logo-strip {
-  display: flex; flex-wrap: wrap; gap: 40px 56px;
-  align-items: center; margin-top: 52px;
+  display: flex; flex-wrap: wrap; gap: 0;
+  align-items: center;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 28px 32px;
+  margin-top: 52px;
 }
 .logo-item {
   display: flex; align-items: center; justify-content: center;
-  height: 44px;
+  height: 52px;
+  padding: 8px 24px;
 }
 .logo-img {
-  height: 34px; width: auto; max-width: 150px;
+  height: 30px; width: auto; max-width: 140px;
   object-fit: contain; display: block;
-  filter: brightness(0) invert(1); opacity: 0.55;
-  transition: opacity .2s ease;
+  filter: grayscale(1);
+  opacity: 0.45;
+  transition: filter .2s ease, opacity .2s ease;
 }
-.logo-item:hover .logo-img { opacity: 1; }
+.logo-item:hover .logo-img { filter: grayscale(0); opacity: 1; }
 .refs-note { font-family: var(--font-mono), ui-monospace, monospace; font-size: 12px; letter-spacing: 0.04em; color: #7C8BA1; margin-top: 40px; }
 
 /* Contact */
