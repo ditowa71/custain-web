@@ -124,7 +124,7 @@ function References() {
         <div className="section-head">
           <span className="eyebrow">Referenzen</span>
           <h2>Vertrauen aus vier Branchen.</h2>
-          <p className="sub">Eine Auswahl von Unternehmen, mit denen Dirk Walter und custain im Kundenmanagement gearbeitet haben.</p>
+          <p className="sub">Eine Auswahl von Unternehmen, mit denen custain im Kundenmanagement gearbeitet hat.</p>
         </div>
         <div className="chips">
           {refs.map((r) => (
