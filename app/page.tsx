@@ -155,6 +155,14 @@ function About() {
     <section id="ueber">
       <div className="wrap">
         <div className="section-head">
+          <span className="eyebrow">Über uns</span>
+          <h2>Eine Beratung mit Haltung.</h2>
+        </div>
+        <div className="about-intro">
+          <p>custain ist keine Agentur. Wir sind eine Beratung mit klarer Haltung: Lösungen, die zu Organisation, Daten und Kunden wirklich passen, und im Tagesgeschäft Bestand haben. Statt Standardpräsentationen entstehen konkrete Maßnahmen, die sich umsetzen lassen.</p>
+          <p>Seit über zehn Jahren begleiten wir Unternehmen aus Telekommunikation, Medien, Finanzen und Energie bei der strategischen Führung ihrer Kundenbeziehungen. Aus dieser Erfahrung heraus entwickeln wir darüber hinaus eigene KI-Produkte: Ambit, der KI-Karrierecoach, ist das erste.</p>
+        </div>
+        <div className="about-founder-head">
           <span className="eyebrow">Gründer</span>
         </div>
         <div className="about-grid">
@@ -163,14 +171,18 @@ function About() {
           </div>
           <div className="about-body">
             <h2>Dirk Walter</h2>
-            <div className="about-role">Gründer · custain, Köln</div>
+            <div className="about-role">Gründer &amp; Inhaber · custain, Köln</div>
             <p>
-              custain ist kein Agentur-Konstrukt, sondern ein <strong>Berater mit Haltung</strong>. Dirk Walter begleitet Unternehmen aus Telekommunikation, Medien, Finanzen und Energie dabei, ihre Kundenbeziehungen strategisch zu führen — und entwickelt aus dieser Erfahrung eigene KI-Produkte.
+              Dirk Walter berät seit der Gründung von custain im Jahr 2013 Unternehmen im Kundenmanagement und CRM. Er bringt über 25 Jahre Erfahrung in leitenden Positionen mit, unter anderem als Mitglied der Geschäftsleitung eines der größten deutschen Anbieter für regionale Werbung und Telefonauskunft, wo er den gesamten Bestandskundenbereich verantwortete.
             </p>
             <p>
-              Der Anspruch: ruhig, klar und verbindlich. Statt Standardpräsentationen entstehen Lösungen, die zu Organisation, Daten und Kunden wirklich passen — und im Tagesgeschäft Bestand haben.
+              Ein konstanter Schwerpunkt seiner Arbeit: der Aufbau und die Weiterentwicklung von Kundenbindungsprogrammen, die tatsächlich funktionieren. Parallel dazu entsteht mit Ambit ein erstes eigenes KI-Produkt: ein Karrierecoach, der Bewerbern hilft, ihre Stärken klar zu formulieren und gezielt einzusetzen.
             </p>
             <div className="about-meta">
+              <div className="item">
+                <div className="k">Gegründet</div>
+                <div className="v">2013</div>
+              </div>
               <div className="item">
                 <div className="k">Sitz</div>
                 <div className="v">Köln</div>
