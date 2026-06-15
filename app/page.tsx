@@ -166,8 +166,9 @@ function About() {
           <span className="eyebrow">Gründer</span>
         </div>
         <div className="about-grid">
-          <div className="portrait" role="img" aria-label="Porträt Dirk Walter">
-            <span className="tag">Porträt · Dirk Walter</span>
+          <div className="portrait">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/dirk-walter.jpg" alt="Dirk Walter, Gründer custain" className="portrait-img" />
           </div>
           <div className="about-body">
             <h2>Dirk Walter</h2>

@@ -210,20 +210,12 @@ section { padding: 104px 0; }
 .about-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 32px 56px; margin-top: 36px; }
 .about-intro p { font-size: 17px; color: var(--muted); line-height: 1.66; }
 .about-founder-head { margin-top: 72px; padding-top: 56px; border-top: 1px solid var(--line); }
-.about-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 64px; align-items: start; margin-top: 32px; }
+.about-grid { display: grid; grid-template-columns: 300px 1fr; gap: 64px; align-items: start; margin-top: 32px; }
 .portrait {
-  aspect-ratio: 4/5; border-radius: 14px; overflow: hidden; border: 1px solid var(--line);
-  background: repeating-linear-gradient(135deg, var(--sand-deep) 0 12px, var(--sand-card) 12px 24px);
-  position: relative;
+  width: 300px; aspect-ratio: 4/5; border-radius: 14px; overflow: hidden; border: 1px solid var(--line);
+  flex-shrink: 0;
 }
-.portrait .tag {
-  position: absolute; left: 0; bottom: 0;
-  font-family: var(--font-mono), ui-monospace, monospace;
-  font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted-2);
-  background: color-mix(in srgb, var(--sand-card) 88%, transparent);
-  padding: 8px 12px; border-top-right-radius: 8px;
-  border-top: 1px solid var(--line); border-right: 1px solid var(--line);
-}
+.portrait-img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
 .about-body h2 {
   font-family: var(--font-serif), Georgia, serif;
   font-weight: 500; font-size: clamp(30px, 3.4vw, 42px);
@@ -400,7 +392,7 @@ footer.site { background: var(--sand-card); border-top: 1px solid var(--line); p
   .cards { grid-template-columns: 1fr; }
   .about-intro { grid-template-columns: 1fr; gap: 20px; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
-  .portrait { max-width: 360px; }
+  .portrait { width: 100%; max-width: 300px; }
 }
 @media (max-width: 680px) {
   :root { --pad: 22px; }
