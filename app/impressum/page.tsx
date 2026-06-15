@@ -38,7 +38,7 @@ export default function Impressum() {
             <h2>Umsatzsteuer-ID</h2>
             <p>
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              DE 296 218 548
+              DE288600171
             </p>
           </div>
 
