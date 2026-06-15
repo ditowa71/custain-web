@@ -33,7 +33,7 @@ export default function KundenbindungRetention() {
           <div className="wrap">
             <div className="service-section-head">
               <span className="eyebrow">Leistungsumfang</span>
-              <h2>Was ich anbiete</h2>
+              <h2>Was wir anbieten</h2>
             </div>
             <div className="scope-list">
               <div className="scope-item">
