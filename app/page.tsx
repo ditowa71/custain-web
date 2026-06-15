@@ -121,7 +121,7 @@ const LOGOS = [
   { src: "/logos/rheinenergie.png?v=4",        alt: "RheinEnergie" },
   { src: "/logos/1und1.svg?v=4",               alt: "1&1" },
   { src: "/logos/sky.png?v=4",                 alt: "Sky Deutschland" },
-  { src: "/logos/concardis.png?v=4",           alt: "concardis" },
+  { src: "/logos/concardis.png?v=4",           alt: "concardis",        large: true },
   { src: "/logos/aschendorff-medien.png?v=4",  alt: "Aschendorff Medien" },
   { src: "/logos/westfalen-ag.png?v=4",        alt: "Westfalen AG" },
   { src: "/logos/stadtwerke-norden.png?v=4",   alt: "Stadtwerke Norden" },
@@ -140,7 +140,7 @@ function References() {
           {LOGOS.map((l) => (
             <div key={l.alt} className="logo-item">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={l.src} alt={l.alt} className="logo-img" />
+              <img src={l.src} alt={l.alt} className={`logo-img${l.large ? " logo-img--large" : ""}`} />
             </div>
           ))}
         </div>

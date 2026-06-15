@@ -250,7 +250,8 @@ section { padding: 104px 0; }
 }
 .chip:hover { border-color: #7FB7B0; color: #fff; background: rgba(127,183,176,0.10); }
 .logo-strip {
-  display: flex; flex-wrap: wrap; gap: 0;
+  display: flex; flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   background: var(--white);
   border-radius: 14px;
@@ -259,8 +260,9 @@ section { padding: 104px 0; }
 }
 .logo-item {
   display: flex; align-items: center; justify-content: center;
+  flex: 1 1 auto;
   height: 52px;
-  padding: 8px 24px;
+  padding: 8px 20px;
 }
 .logo-img {
   height: 30px; width: auto; max-width: 140px;
@@ -269,6 +271,7 @@ section { padding: 104px 0; }
   opacity: 0.45;
   transition: filter .2s ease, opacity .2s ease;
 }
+.logo-img--large { height: 42px; }
 .logo-item:hover .logo-img { filter: grayscale(0); opacity: 1; }
 .refs-note { font-family: var(--font-mono), ui-monospace, monospace; font-size: 12px; letter-spacing: 0.04em; color: #7C8BA1; margin-top: 40px; }
 
