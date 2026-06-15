@@ -119,7 +119,7 @@ function Services() {
 const LOGOS = [
   { src: "/logos/unitymedia.png",         alt: "Unitymedia" },
   { src: "/logos/rheinenergie.png",        alt: "RheinEnergie" },
-  { src: "/logos/1und1.png",               alt: "1&1" },
+  { src: "/logos/1und1.svg",               alt: "1&1" },
   { src: "/logos/sky.png",                 alt: "Sky Deutschland" },
   { src: "/logos/concardis.png",           alt: "concardis" },
   { src: "/logos/aschendorff-medien.png",  alt: "Aschendorff Medien" },
