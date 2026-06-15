@@ -120,11 +120,11 @@ const LOGOS = [
   { src: "/logos/unitymedia.png",         alt: "Unitymedia" },
   { src: "/logos/rheinenergie.png",        alt: "RheinEnergie" },
   { src: "/logos/1und1.png",               alt: "1&1" },
-  { src: "/logos/sky.jpeg",                alt: "Sky Deutschland" },
-  { src: "/logos/concardis.jpeg",          alt: "concardis" },
+  { src: "/logos/sky.png",                 alt: "Sky Deutschland" },
+  { src: "/logos/concardis.png",           alt: "concardis" },
   { src: "/logos/aschendorff-medien.png",  alt: "Aschendorff Medien" },
   { src: "/logos/westfalen-ag.png",        alt: "Westfalen AG" },
-  { src: "/logos/stadtwerke-norden.jpeg",  alt: "Stadtwerke Norden" },
+  { src: "/logos/stadtwerke-norden.png",   alt: "Stadtwerke Norden" },
 ];
 
 function References() {
