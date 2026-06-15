@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { SiteNav, WordmarkBrand } from "./components/site-nav";
+import { SiteNav, SiteFooter } from "./components/site-nav";
 
 export default function Home() {
   return (
@@ -84,10 +83,10 @@ function Services() {
             <h3>Kundenmanagement-Beratung</h3>
             <p className="desc">CRM-Strategie, Customer Lifecycle Management und Retention — fundiert analysiert, klar priorisiert, konsequent umgesetzt.</p>
             <ul>
-              <li>CRM-Strategie &amp; Roadmap</li>
-              <li>Customer Lifecycle Management</li>
-              <li>Kundenbindung &amp; Retention</li>
-              <li>Datengetriebene Segmentierung &amp; Wertsteuerung</li>
+              <li className="link-item"><a href="/leistungen/crm-strategie">CRM-Strategie &amp; Roadmap <span className="lnk-arrow">→</span></a></li>
+              <li className="link-item"><a href="/leistungen/customer-lifecycle-management">Customer Lifecycle Management <span className="lnk-arrow">→</span></a></li>
+              <li className="link-item"><a href="/leistungen/kundenbindung-retention">Kundenbindung &amp; Retention <span className="lnk-arrow">→</span></a></li>
+              <li className="link-item"><a href="/leistungen/segmentierung-wertsteuerung">Datengetriebene Segmentierung &amp; Wertsteuerung <span className="lnk-arrow">→</span></a></li>
             </ul>
             <div className="spacer" />
             <div className="ambit">
@@ -118,7 +117,7 @@ function Services() {
 }
 
 function References() {
-  const refs = ["Unitymedia", "1&1", "Sky Deutschland", "concardis", "Westfalen AG", "Stadtwerke Norden"];
+  const refs = ["Unitymedia", "Rheinenergie AG", "1&1", "Sky Deutschland", "concardis", "Aschendorff Medien", "Westfalen AG", "Stadtwerke Norden"];
   return (
     <section className="refs" id="referenzen">
       <div className="wrap">
@@ -214,42 +213,3 @@ function Contact() {
   );
 }
 
-function SiteFooter() {
-  return (
-    <footer className="site">
-      <div className="wrap">
-        <div className="foot-top">
-          <div className="foot-brand">
-            <WordmarkBrand />
-            <p className="foot-tag">Customer Management Beratung &amp; KI-Produktentwicklung. Köln.</p>
-          </div>
-          <div className="foot-nav">
-            <div className="foot-col">
-              <div className="h">Navigation</div>
-              <a href="#leistungen">Leistungen</a>
-              <a href="#referenzen">Referenzen</a>
-              <a href="#ueber">Über uns</a>
-              <a href="#kontakt">Kontakt</a>
-            </div>
-            <div className="foot-col">
-              <div className="h">Produkt</div>
-              <a href="https://ambit.career" target="_blank" rel="noopener noreferrer">Ambit ↗</a>
-            </div>
-            <div className="foot-col">
-              <div className="h">Kontakt</div>
-              <a href="mailto:info@custain.de">info@custain.de</a>
-              <a href="https://www.linkedin.com/in/dirkthomaswalter/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-        <div className="foot-bottom">
-          <span>© {new Date().getFullYear()} custain · Dirk Walter</span>
-          <div className="legal">
-            <Link href="/impressum">Impressum</Link>
-            <Link href="/datenschutz">Datenschutz</Link>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-}
