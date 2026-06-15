@@ -212,19 +212,27 @@ function Contact() {
           <div className="contact-left">
             <span className="eyebrow">Kontakt</span>
             <h2>Sprechen wir über Ihre Kundenbeziehungen.</h2>
-            <p>Ob CRM-Strategie, Retention-Programm oder ein konkretes KI-Vorhaben — ein erstes Gespräch schafft Klarheit. Unverbindlich und direkt.</p>
+            <p>Ob CRM-Strategie, Retention-Programm oder ein konkretes KI-Vorhaben: ein erstes Gespräch schafft Klarheit. Unverbindlich und direkt.</p>
             <a className="btn btn-primary" href="mailto:info@custain.de">
               Gespräch vereinbaren <span className="arrow">→</span>
             </a>
           </div>
           <div className="contact-card">
             <div className="contact-row">
-              <span className="k">E-Mail</span>
-              <a className="v" href="mailto:info@custain.de">info@custain.de</a>
+              <span className="k">Unternehmen</span>
+              <span className="v">.custain<br />Customer Management Beratung<br />Inhaber: Dirk Walter</span>
             </div>
             <div className="contact-row">
-              <span className="k">Standort</span>
-              <span className="v">Köln, Deutschland</span>
+              <span className="k">Adresse</span>
+              <span className="v">Brüsseler Str. 92<br />50672 Köln</span>
+            </div>
+            <div className="contact-row">
+              <span className="k">Mobil</span>
+              <a className="v" href="tel:+4915116991601">+49 151 16991601</a>
+            </div>
+            <div className="contact-row">
+              <span className="k">E-Mail</span>
+              <a className="v" href="mailto:info@custain.de">info@custain.de</a>
             </div>
             <div className="contact-row">
               <span className="k">LinkedIn</span>
