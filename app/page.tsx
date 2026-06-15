@@ -117,14 +117,14 @@ function Services() {
 }
 
 const LOGOS = [
-  { src: "/logos/unitymedia.png",         alt: "Unitymedia" },
-  { src: "/logos/rheinenergie.png",        alt: "RheinEnergie" },
-  { src: "/logos/1und1.svg",               alt: "1&1" },
-  { src: "/logos/sky.png",                 alt: "Sky Deutschland" },
-  { src: "/logos/concardis.png",           alt: "concardis" },
-  { src: "/logos/aschendorff-medien.png",  alt: "Aschendorff Medien" },
-  { src: "/logos/westfalen-ag.png",        alt: "Westfalen AG" },
-  { src: "/logos/stadtwerke-norden.png",   alt: "Stadtwerke Norden" },
+  { src: "/logos/unitymedia.png?v=4",         alt: "Unitymedia" },
+  { src: "/logos/rheinenergie.png?v=4",        alt: "RheinEnergie" },
+  { src: "/logos/1und1.svg?v=4",               alt: "1&1" },
+  { src: "/logos/sky.png?v=4",                 alt: "Sky Deutschland" },
+  { src: "/logos/concardis.png?v=4",           alt: "concardis" },
+  { src: "/logos/aschendorff-medien.png?v=4",  alt: "Aschendorff Medien" },
+  { src: "/logos/westfalen-ag.png?v=4",        alt: "Westfalen AG" },
+  { src: "/logos/stadtwerke-norden.png?v=4",   alt: "Stadtwerke Norden" },
 ];
 
 function References() {
