@@ -1,15 +1,31 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Spectral, Hanken_Grotesk, Spline_Sans_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const serif = Spectral({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-serif",
+});
+const sans = Hanken_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+});
+const mono = Spline_Sans_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
-  title: "custain – Nachhaltig Kunden binden",
-  description: "custain unterstützt Unternehmen beim Aufbau moderner Kundenbeziehungen: mit Strategie, Erfahrung und KI.",
+  title: "custain – Customer Management & KI-Produkte",
+  description:
+    "custain verbindet strategische Kundenmanagement-Beratung mit eigener KI-Produktentwicklung. Köln.",
   openGraph: {
-    title: "custain – Nachhaltig Kunden binden",
-    description: "custain unterstützt Unternehmen beim Aufbau moderner Kundenbeziehungen: mit Strategie, Erfahrung und KI.",
+    title: "custain – Customer Management & KI-Produkte",
+    description:
+      "Strategische Kundenmanagement-Beratung und KI-Produktentwicklung aus Köln.",
     url: "https://www.custain.de",
     siteName: "custain",
     locale: "de_DE",
@@ -19,14 +35,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="de" className="h-full">
-      <body className={`${inter.className} min-h-full flex flex-col`}>
-        {children}
-      </body>
+    <html lang="de" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
