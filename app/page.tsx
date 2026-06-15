@@ -160,7 +160,7 @@ function About() {
         </div>
         <div className="about-intro">
           <p>custain ist keine Agentur. Wir sind eine Beratung mit klarer Haltung: Lösungen, die zu Organisation, Daten und Kunden wirklich passen, und im Tagesgeschäft Bestand haben. Statt Standardpräsentationen entstehen konkrete Maßnahmen, die sich umsetzen lassen.</p>
-          <p>Seit über zehn Jahren begleiten wir Unternehmen aus Telekommunikation, Medien, Finanzen und Energie bei der strategischen Führung ihrer Kundenbeziehungen. Aus dieser Erfahrung heraus entwickeln wir darüber hinaus eigene KI-Produkte: Ambit, der KI-Karrierecoach, ist das erste.</p>
+          <p>Seit über zehn Jahren begleiten wir Unternehmen aus Telekommunikation, Medien, Finanzen und Energie bei der strategischen Führung ihrer Kundenbeziehungen. Aus dieser Erfahrung heraus entwickeln wir darüber hinaus eigene KI-Produkte: <a href="https://ambit.career" target="_blank" rel="noopener noreferrer" className="text-link">Ambit</a>, der KI-Karrierecoach, ist das erste.</p>
         </div>
         <div className="about-founder-head">
           <span className="eyebrow">Gründer</span>
@@ -177,7 +177,7 @@ function About() {
               Dirk Walter berät seit der Gründung von custain im Jahr 2013 Unternehmen im Kundenmanagement und CRM. Er bringt über 25 Jahre Erfahrung in leitenden Positionen mit, unter anderem als Mitglied der Geschäftsleitung eines der größten deutschen Anbieter für regionale Werbung und Telefonauskunft, wo er den gesamten Bestandskundenbereich verantwortete.
             </p>
             <p>
-              Ein konstanter Schwerpunkt seiner Arbeit: der Aufbau und die Weiterentwicklung von Kundenbindungsprogrammen, die tatsächlich funktionieren. Parallel dazu entsteht mit Ambit ein erstes eigenes KI-Produkt: ein Karrierecoach, der Bewerbern hilft, ihre Stärken klar zu formulieren und gezielt einzusetzen.
+              Ein konstanter Schwerpunkt seiner Arbeit: der Aufbau und die Weiterentwicklung von Kundenbindungsprogrammen, die tatsächlich funktionieren. Parallel dazu entsteht mit <a href="https://ambit.career" target="_blank" rel="noopener noreferrer" className="text-link">Ambit</a> ein erstes eigenes KI-Produkt: ein Karrierecoach, der Bewerbern hilft, ihre Stärken klar zu formulieren und gezielt einzusetzen.
             </p>
             <div className="about-meta">
               <div className="item">
