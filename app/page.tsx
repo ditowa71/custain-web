@@ -116,8 +116,18 @@ function Services() {
   );
 }
 
+const LOGOS = [
+  { src: "/logos/unitymedia.png",         alt: "Unitymedia" },
+  { src: "/logos/rheinenergie.png",        alt: "RheinEnergie" },
+  { src: "/logos/1und1.png",               alt: "1&1" },
+  { src: "/logos/sky.jpeg",                alt: "Sky Deutschland" },
+  { src: "/logos/concardis.jpeg",          alt: "concardis" },
+  { src: "/logos/aschendorff-medien.png",  alt: "Aschendorff Medien" },
+  { src: "/logos/westfalen-ag.png",        alt: "Westfalen AG" },
+  { src: "/logos/stadtwerke-norden.jpeg",  alt: "Stadtwerke Norden" },
+];
+
 function References() {
-  const refs = ["Unitymedia", "Rheinenergie AG", "1&1", "Sky Deutschland", "concardis", "Aschendorff Medien", "Westfalen AG", "Stadtwerke Norden"];
   return (
     <section className="refs" id="referenzen">
       <div className="wrap">
@@ -126,9 +136,12 @@ function References() {
           <h2>Vertrauen aus vier Branchen.</h2>
           <p className="sub">Eine Auswahl von Unternehmen, mit denen custain im Kundenmanagement gearbeitet hat.</p>
         </div>
-        <div className="chips">
-          {refs.map((r) => (
-            <span key={r} className="chip">{r}</span>
+        <div className="logo-strip">
+          {LOGOS.map((l) => (
+            <div key={l.alt} className="logo-item">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={l.src} alt={l.alt} className="logo-img" />
+            </div>
           ))}
         </div>
         <div className="refs-note">// Telekommunikation · Medien · Finanzen · Energie</div>

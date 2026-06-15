@@ -249,7 +249,22 @@ section { padding: 104px 0; }
   transition: border-color .2s ease, background .2s ease, color .2s ease;
 }
 .chip:hover { border-color: #7FB7B0; color: #fff; background: rgba(127,183,176,0.10); }
-.refs-note { font-family: var(--font-mono), ui-monospace, monospace; font-size: 12px; letter-spacing: 0.04em; color: #7C8BA1; margin-top: 34px; }
+.logo-strip {
+  display: flex; flex-wrap: wrap; gap: 40px 56px;
+  align-items: center; margin-top: 52px;
+}
+.logo-item {
+  display: flex; align-items: center; justify-content: center;
+  height: 44px;
+}
+.logo-img {
+  height: 34px; width: auto; max-width: 150px;
+  object-fit: contain; display: block;
+  filter: brightness(0) invert(1); opacity: 0.55;
+  transition: opacity .2s ease;
+}
+.logo-item:hover .logo-img { opacity: 1; }
+.refs-note { font-family: var(--font-mono), ui-monospace, monospace; font-size: 12px; letter-spacing: 0.04em; color: #7C8BA1; margin-top: 40px; }
 
 /* Contact */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; margin-top: 24px; }
