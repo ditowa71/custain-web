@@ -89,7 +89,7 @@ export function SiteFooter({ subpage = false }: { subpage?: boolean }) {
             </div>
             <div className="foot-col">
               <div className="h">Produkt</div>
-              <a href="https://ambit.career" target="_blank" rel="noopener noreferrer">Ambit ↗</a>
+              <a href="https://karriva.com" target="_blank" rel="noopener noreferrer">Karriva ↗</a>
             </div>
             <div className="foot-col">
               <div className="h">Kontakt</div>
