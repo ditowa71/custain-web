@@ -45,6 +45,13 @@ export const news: NewsItem[] = [
           persönlicher Onboarding-Plan bereit.
         </p>
         <p>
+          Der Ansatz von Karriva basiert auf den Prinzipien des professionellen Direktmarketings:
+          Zielgruppenanalyse, Botschaftsentwicklung und zielgenaue Ansprache. Was Unternehmen seit
+          Jahrzehnten in der Kundengewinnung einsetzen, überträgt Karriva konsequent auf die
+          individuelle Jobsuche. Jobsuchende treten damit nicht mehr als Bewerber auf, sondern als
+          Anbieter mit einem klaren Wertversprechen.
+        </p>
+        <p>
           "Eine Bewerbung ist eine Direktmarketing-Kampagne in eigener Sache. Das klingt nüchtern,
           ist aber genau die richtige Denkweise. Aus Jahren im Kundenbeziehungsmanagement weiß ich:
           Wer zielgenau und relevant kommuniziert, setzt sich durch. Karriva gibt Jobsuchenden das
@@ -53,7 +60,8 @@ export const news: NewsItem[] = [
         <p>
           Karriva ist ab sofort unter <a href="https://karriva.com" target="_blank" rel="noopener noreferrer">karriva.com</a> verfügbar.
           Ein kostenloser Einstiegsplan ist dauerhaft verfügbar. Bezahlpläne starten ab 29 Euro
-          pro Monat mit 14 Tagen kostenlosem Test.
+          pro Monat mit 14 Tagen kostenlosem Test. Ein Drei-Monats-Paket für die Bewerbungsphase
+          ist für 59 Euro erhältlich, rechnerisch unter 20 Euro pro Monat.
         </p>
         <h3>Über custain</h3>
         <p>
