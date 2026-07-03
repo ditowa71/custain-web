@@ -58,7 +58,7 @@ export const news: NewsItem[] = [
           Handwerkszeug dafür", ergänzt Walter.
         </p>
         <p>
-          Karriva ist ab sofort unter <a href="https://karriva.com" target="_blank" rel="noopener noreferrer">karriva.com</a> verfügbar.
+          Karriva ist ab sofort unter <a href="https://karriva.com" target="_blank" rel="noopener noreferrer">karriva.com</a> online.
           Ein kostenloser Einstiegsplan ist dauerhaft verfügbar. Bezahlpläne starten ab 29 Euro
           pro Monat mit 14 Tagen kostenlosem Test. Ein Drei-Monats-Paket für die Bewerbungsphase
           ist für 59 Euro erhältlich, rechnerisch unter 20 Euro pro Monat.
