@@ -26,14 +26,14 @@ export const news: NewsItem[] = [
         <p>
           Köln, 1. Juli 2026. custain veröffentlicht heute Karriva, einen KI-gestützten Karrierecoach
           für Fach- und Führungskräfte in Deutschland, Österreich und der Schweiz. Die Plattform
-          begleitet Berufstätige durch den gesamten Bewerbungsprozess: von der strategischen
+          begleitet Jobsuchende durch den gesamten Bewerbungsprozess: von der strategischen
           Karriere-Positionierung über Job-Matching und Anschreiben bis hin zur
           Interview-Vorbereitung, Gehaltsverhandlung und den ersten 90 Tagen im neuen Job.
         </p>
         <p>
-          "Wir haben Karriva gebaut, weil ich die gleiche Frage immer wieder gehört habe: Wie
+          "Wir haben Karriva gebaut, weil wir die gleiche Frage immer wieder gehört haben: Wie
           positioniere ich mich richtig, und wie kommuniziere ich das überzeugend? Karriva deckt
-          den gesamten Weg ab, auf Deutsch, für den DACH-Markt",
+          den gesamten Weg ab, basierend auf dem eigenen persönlichen Profil",
           sagt Dirk Walter, Gründer von custain und Karriva.
         </p>
         <p>
