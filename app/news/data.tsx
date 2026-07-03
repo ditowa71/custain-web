@@ -16,7 +16,7 @@ export interface NewsItem {
 export const news: NewsItem[] = [
   {
     slug: "karriva-launch-2026",
-    title: "Karriva startet als KI-Karrierecoach für den DACH-Markt",
+    title: "Karriva startet als KI-Karrierecoach für den DACH-Markt – Wie Direktmarketing-Prinzipien die Jobsuche verändern",
     date: "1. Juli 2026",
     dateSort: "2026-07-01",
     category: "Pressemitteilung",
