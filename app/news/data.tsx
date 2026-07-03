@@ -31,10 +31,9 @@ export const news: NewsItem[] = [
           Interview-Vorbereitung, Gehaltsverhandlung und den ersten 90 Tagen im neuen Job.
         </p>
         <p>
-          "Ich habe Karriva gebaut, weil ich die gleiche Frage immer wieder gehört habe: Wie
-          positioniere ich mich richtig, und wie kommuniziere ich das überzeugend? Bestehende
-          Tools sind meist englischsprachig, auf den US-Markt ausgerichtet oder lösen nur einen
-          Teilaspekt. Karriva deckt den gesamten Weg ab, auf Deutsch, für den DACH-Markt",
+          "Wir haben Karriva gebaut, weil ich die gleiche Frage immer wieder gehört habe: Wie
+          positioniere ich mich richtig, und wie kommuniziere ich das überzeugend? Karriva deckt
+          den gesamten Weg ab, auf Deutsch, für den DACH-Markt",
           sagt Dirk Walter, Gründer von custain und Karriva.
         </p>
         <p>
@@ -44,6 +43,12 @@ export const news: NewsItem[] = [
           Stärken, Marktposition und konkrete nächste Schritte. Für die späteren Phasen der
           Jobsuche stehen Assessment-Coaching, Gehaltsverhandlungs-Coaching und ein
           persönlicher Onboarding-Plan bereit.
+        </p>
+        <p>
+          "Eine Bewerbung ist eine Direktmarketing-Kampagne in eigener Sache. Das klingt nüchtern,
+          ist aber genau die richtige Denkweise. Aus Jahren im Kundenbeziehungsmanagement weiß ich:
+          Wer zielgenau und relevant kommuniziert, setzt sich durch. Karriva gibt Jobsuchenden das
+          Handwerkszeug dafür", ergänzt Walter.
         </p>
         <p>
           Karriva ist ab sofort unter <a href="https://karriva.com" target="_blank" rel="noopener noreferrer">karriva.com</a> verfügbar.
