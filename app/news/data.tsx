@@ -17,14 +17,14 @@ export const news: NewsItem[] = [
   {
     slug: "karriva-launch-2026",
     title: "Wie Direktmarketing-Prinzipien die Jobsuche verändern: Karriva startet als KI-Karrierecoach",
-    date: "1. Juli 2026",
-    dateSort: "2026-07-01",
+    date: "3. Juli 2026",
+    dateSort: "2026-07-03",
     category: "Pressemitteilung",
     excerpt: "custain bringt mit Karriva einen KI-gestützten Karrierecoach für Fach- und Führungskräfte im deutschsprachigen Raum auf den Markt.",
     body: (
       <>
         <p>
-          Köln, 1. Juli 2026. custain veröffentlicht heute Karriva, einen KI-gestützten Karrierecoach
+          Köln, 3. Juli 2026. custain veröffentlicht heute Karriva, einen KI-gestützten Karrierecoach
           für Fach- und Führungskräfte in Deutschland, Österreich und der Schweiz. Die Plattform
           begleitet Jobsuchende durch den gesamten Bewerbungsprozess: von der strategischen
           Karriere-Positionierung über Job-Matching und Anschreiben bis hin zur
