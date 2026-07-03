@@ -42,6 +42,7 @@ export function SiteNav({ subpage = false }: { subpage?: boolean }) {
           <a href={`${b}#leistungen`} onClick={closeMenu}>Leistungen</a>
           <a href={`${b}#referenzen`} onClick={closeMenu}>Referenzen</a>
           <a href={`${b}#ueber`} onClick={closeMenu}>Über uns</a>
+          <Link href="/news" onClick={closeMenu}>News</Link>
           <a href={`${b}#kontakt`} onClick={closeMenu}>Kontakt</a>
         </nav>
         <div className="nav-right">
@@ -85,6 +86,7 @@ export function SiteFooter({ subpage = false }: { subpage?: boolean }) {
               <a href={`${b}#leistungen`}>Leistungen</a>
               <a href={`${b}#referenzen`}>Referenzen</a>
               <a href={`${b}#ueber`}>Über uns</a>
+              <Link href="/news">News</Link>
               <a href={`${b}#kontakt`}>Kontakt</a>
             </div>
             <div className="foot-col">
