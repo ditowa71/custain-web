@@ -19,6 +19,7 @@ const mono = Spline_Sans_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.custain.de"),
   title: "custain – Customer Management & KI-Produkte",
   description:
     "custain verbindet strategische Kundenmanagement-Beratung mit eigener KI-Produktentwicklung. Köln.",
