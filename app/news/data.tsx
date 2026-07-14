@@ -1,6 +1,6 @@
 import React from "react";
 
-export type NewsCategory = "Pressemitteilung" | "Presse" | "Vortrag" | "Podcast";
+export type NewsCategory = "Artikel" | "Pressemitteilung" | "Presse" | "Vortrag" | "Podcast";
 
 export interface NewsItem {
   slug: string;
@@ -14,6 +14,118 @@ export interface NewsItem {
 }
 
 export const news: NewsItem[] = [
+  {
+    slug: "bewerbung-direktmarketing-kampagne",
+    title: "Eine Bewerbung ist eine Direktmarketing-Kampagne in eigener Sache",
+    date: "14. Juli 2026",
+    dateSort: "2026-07-14",
+    category: "Artikel",
+    excerpt:
+      "Was Direktmarketers seit Jahrzehnten wissen, gilt genauso für die Jobsuche: Zielgruppe, Botschaft, Timing. Wer das versteht, bewirbt sich zielgenauer und überzeugender.",
+    body: (
+      <>
+        <p>
+          Wer das Marketing kennt, denkt beim Wort Bewerbung vielleicht: Das hat nichts miteinander
+          zu tun. Hier ein Mensch mit einer Geschichte. Dort ein Unternehmen mit einem Bedarf.
+          Kein Funnel, kein A/B-Test, kein Targeting.
+        </p>
+        <p>Aber stimmt das wirklich?</p>
+
+        <h2>Was eine Direktmarketing-Kampagne ausmacht</h2>
+        <p>
+          Im Kundenbeziehungsmanagement gibt es eine Grundregel, die sich in zwanzig Jahren Praxis
+          immer wieder bestätigt hat: Wer die richtige Botschaft zur richtigen Zeit an die richtige
+          Person sendet, gewinnt. Nicht der Lauteste, nicht der mit dem größten Budget. Sondern der
+          Relevanteste.
+        </p>
+        <p>Das setzt vier Dinge voraus:</p>
+        <p>
+          <strong>Zielgruppe kennen.</strong> Wen willst du erreichen? Welche Unternehmen, welche
+          Rollen, welche Entscheider? Je präziser die Antwort, desto besser die Kampagne.
+        </p>
+        <p>
+          <strong>Botschaft schärfen.</strong> Was ist deine Kernbotschaft? Was unterscheidet dich?
+          Was löst du, das andere nicht lösen? Nicht: Was steht in deinem Lebenslauf. Sondern: Was
+          bringt dich auf den Punkt.
+        </p>
+        <p>
+          <strong>Kanal wählen.</strong> Wo erreichst du deine Zielgruppe? Direktbewerbung,
+          LinkedIn, Netzwerk, Headhunter? Nicht jeder Kanal passt zu jedem Segment.
+        </p>
+        <p>
+          <strong>Timing beachten.</strong> Wenn ein Unternehmen wächst, eine Führungskraft
+          wechselt oder eine Stelle neu ausgeschrieben wird, ist der Bedarf am größten.
+        </p>
+
+        <h2>Jetzt ersetze &bdquo;Zielgruppe&ldquo; durch &bdquo;Arbeitgeber&ldquo;</h2>
+        <p>Plötzlich liest sich das anders.</p>
+        <p>
+          Wer in seiner Jobsuche keine klare Zielgruppe hat, bewirbt sich auf alles, was halbwegs
+          passt. Das Ergebnis: Standardanschreiben, generische Profile, niedrige Rücklaufquoten.
+        </p>
+        <p>
+          Wer keine scharfe Botschaft hat, verlässt sich auf seinen Lebenslauf als Dokument. Aber
+          ein Lebenslauf zeigt, was du gemacht hast, nicht wer du bist und was du kannst. Das ist
+          der Unterschied zwischen einer Produktliste und einem Wertversprechen.
+        </p>
+        <p>
+          Wer das Timing ignoriert, bewirbt sich in einem Moment, in dem kein Bedarf besteht,
+          und wundert sich über Absagen.
+        </p>
+
+        <h2>Der entscheidende Unterschied: keine Daten, kein Feedback</h2>
+        <p>
+          Im Marketing gibt es Metriken. Öffnungsrate, Klickrate, Conversion. Du weißt, was
+          funktioniert. Du testest, optimierst, lernst.
+        </p>
+        <p>
+          In der Jobsuche fliegst du blind. Keine Öffnungsrate für dein Anschreiben. Kein
+          Feedback, warum die Absage kam. Das führt dazu, dass viele Jobsuchende dieselben Fehler
+          immer wieder machen, ohne es zu wissen, und dass gute Kandidaten an schlechter
+          Kommunikation scheitern, nicht an fehlendem Können.
+        </p>
+
+        <h2>Was das bedeutet</h2>
+        <p>
+          Eine Bewerbung ist keine Bitte. Sie ist ein Angebot. Und ein gutes Angebot ist relevant,
+          klar formuliert, gut getimed und auf die Zielgruppe zugeschnitten.
+        </p>
+        <p>
+          Das ist keine Dehumanisierung des Prozesses. Es ist das Gegenteil: Wer sich die Mühe
+          macht, sein Angebot wirklich zu schärfen, zeigt mehr Ernsthaftigkeit als jemand, der
+          mit Massenversand hofft, dass irgendwo etwas hängen bleibt.
+        </p>
+        <p>
+          Genau das ist der Gedanke hinter Karriva: Die strategische Disziplin, die im
+          Kundenbeziehungsmanagement selbstverständlich ist, auf die Jobsuche übertragen.{" "}
+          <a href="https://www.karriva.com/karriere-positionierung" target="_blank" rel="noopener noreferrer">
+            Karriere-Positionierung
+          </a>{" "}
+          statt Lebenslauf-Optimierung. Zielgenaue Anschreiben statt Vorlagen. Vorbereitung statt
+          Hoffnung.
+        </p>
+
+        <hr />
+
+        <p>
+          <strong>Karriva ausprobieren:</strong> Karriere-Positionierung, Anschreiben und
+          Interview-Vorbereitung auf Basis des eigenen Profils.{" "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            Kostenlos starten →
+          </a>
+        </p>
+
+        <hr />
+
+        <p>
+          <em>
+            Dirk Walter ist Gründer von custain und Karriva. Er berät seit 2013 Unternehmen in
+            Telekommunikation, Medien, Energie und Finanzen im Kundenbeziehungsmanagement.
+          </em>
+        </p>
+      </>
+    ),
+  },
   {
     slug: "karriva-launch-2026",
     title: "Wie Direktmarketing-Prinzipien die Jobsuche verändern: Karriva startet als KI-Karrierecoach",
@@ -231,6 +343,7 @@ export function getNewsBySlug(slug: string): NewsItem | undefined {
 }
 
 export const categoryColors: Record<NewsCategory, string> = {
+  Artikel: "#b45309",
   Pressemitteilung: "var(--teal)",
   Presse: "var(--navy-600)",
   Vortrag: "var(--muted)",
