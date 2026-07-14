@@ -115,6 +115,16 @@ export const news: NewsItem[] = [
         <hr />
 
         <p>
+          <strong>Karriva ausprobieren:</strong> Karriere-Positionierung, Anschreiben und
+          Interview-Vorbereitung auf Basis des eigenen Profils.{" "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            Kostenlos starten →
+          </a>
+        </p>
+
+        <hr />
+
+        <p>
           <em>
             Dirk Walter ist Gründer von custain und Karriva. Er berät seit 2013 Unternehmen in
             Telekommunikation, Medien, Energie und Finanzen im Kundenbeziehungsmanagement.

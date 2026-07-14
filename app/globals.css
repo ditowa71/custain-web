@@ -454,11 +454,17 @@ footer.site { background: var(--sand-card); border-top: 1px solid var(--line); p
   display: flex; flex-direction: column; gap: 20px;
 }
 .news-body p { margin: 0; }
+.news-body h2 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 500; font-size: 26px; color: var(--navy);
+  letter-spacing: -0.02em; margin-top: 12px;
+}
 .news-body h3 {
   font-family: var(--font-serif), Georgia, serif;
   font-weight: 500; font-size: 22px; color: var(--navy);
   letter-spacing: -0.01em; margin-top: 8px;
 }
+.news-body hr { border: none; border-top: 1px solid var(--line-soft); margin: 4px 0; }
 .news-body a { color: var(--teal); }
 .news-body a:hover { text-decoration: underline; }
 
