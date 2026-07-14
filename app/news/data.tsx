@@ -36,13 +36,13 @@ export const news: NewsItem[] = [
 
         <h2>Die vier Prinzipien des Direktmarketings, angewendet auf die Jobsuche</h2>
         <p>
-          <strong>Zielgruppe kennen.</strong> Im Direktmarketing beginnt alles mit der Frage: Wen
+          <strong>Zielgruppe kennen.</strong>{" "}Im Direktmarketing beginnt alles mit der Frage: Wen
           will ich erreichen? Für Jobsuchende bedeutet das: Welche Unternehmen, welche Rollen,
           welche Entscheider? Ein Kandidat, der sich bei 40 Unternehmen in drei verschiedenen
           Branchen bewirbt, hat keine Zielgruppe. Er hat eine Hoffnung.
         </p>
         <p>
-          <strong>Botschaft schärfen.</strong> Ein gutes Direktmarketing-Angebot zeigt nicht, was
+          <strong>Botschaft schärfen.</strong>{" "}Ein gutes Direktmarketing-Angebot zeigt nicht, was
           das Produkt ist, sondern was es für den Empfänger löst. Ein Lebenslauf ist eine
           Produktliste. Ein überzeugendes Angebot ist eine Antwort auf die Frage: Welches Problem
           löse ich, das dieses Unternehmen gerade hat? Aus &bdquo;10 Jahre im Vertrieb&ldquo; wird:{" "}
@@ -50,14 +50,14 @@ export const news: NewsItem[] = [
           8 Mitarbeitenden. Das ist es, was ihr gerade sucht.&ldquo;
         </p>
         <p>
-          <strong>Kanal wählen.</strong> Im Marketing werden Kanäle nach Zielgruppe und Botschaft
+          <strong>Kanal wählen.</strong>{" "}Im Marketing werden Kanäle nach Zielgruppe und Botschaft
           gewählt, nicht nach Verfügbarkeit. In der Jobsuche: LinkedIn-Direktansprache für
           Netzwerkkontakte, Direktbewerbung für gezielt ausgewählte Unternehmen, Headhunter für
           spezialisierte Positionen. Wer überall gleichzeitig aktiv ist, ist nirgends wirklich
           präsent.
         </p>
         <p>
-          <strong>Timing beachten.</strong> Im Direktmarketing werden Kampagnen auf Bedarf
+          <strong>Timing beachten.</strong>{" "}Im Direktmarketing werden Kampagnen auf Bedarf
           ausgerichtet: Wenn ein Unternehmen eine neue Marktregion aufbaut, eine Abteilung
           reorganisiert oder ein Wettbewerber übernommen wird, ist der Bedarf an Expertise am
           größten. Wer diese Signale liest und im richtigen Moment reagiert, hat einen Vorteil,
@@ -100,16 +100,6 @@ export const news: NewsItem[] = [
           : Die strategische Disziplin des Direktmarketings auf die individuelle Jobsuche
           übertragen. Karriere-Positionierung statt Lebenslauf-Optimierung. Zielgenaue Anschreiben
           statt Vorlagen. Vorbereitung statt Hoffnung.
-        </p>
-
-        <hr />
-
-        <p>
-          <strong>Karriva ausprobieren:</strong> Karriere-Positionierung, Anschreiben und
-          Interview-Vorbereitung auf Basis des eigenen Profils.{" "}
-          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
-            Kostenlos starten →
-          </a>
         </p>
 
         <hr />
