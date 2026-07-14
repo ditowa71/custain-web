@@ -25,84 +25,81 @@ export const news: NewsItem[] = [
     body: (
       <>
         <p>
-          Wer das Marketing kennt, denkt beim Wort Bewerbung vielleicht: Das hat nichts miteinander
-          zu tun. Hier ein Mensch mit einer Geschichte. Dort ein Unternehmen mit einem Bedarf.
-          Kein Funnel, kein A/B-Test, kein Targeting.
-        </p>
-        <p>Aber stimmt das wirklich?</p>
-
-        <h2>Was eine Direktmarketing-Kampagne ausmacht</h2>
-        <p>
-          Im Kundenbeziehungsmanagement gibt es eine Grundregel, die sich in zwanzig Jahren Praxis
-          immer wieder bestätigt hat: Wer die richtige Botschaft zur richtigen Zeit an die richtige
-          Person sendet, gewinnt. Nicht der Lauteste, nicht der mit dem größten Budget. Sondern der
-          Relevanteste.
-        </p>
-        <p>Das setzt vier Dinge voraus:</p>
-        <p>
-          <strong>Zielgruppe kennen.</strong> Wen willst du erreichen? Welche Unternehmen, welche
-          Rollen, welche Entscheider? Je präziser die Antwort, desto besser die Kampagne.
+          Wer im Marketing arbeitet, kennt die Grundregel: Wer die richtige Botschaft zur richtigen
+          Zeit an die richtige Person sendet, gewinnt. Nicht der Lauteste, nicht der mit dem größten
+          Budget. Sondern der Relevanteste.
         </p>
         <p>
-          <strong>Botschaft schärfen.</strong> Was ist deine Kernbotschaft? Was unterscheidet dich?
-          Was löst du, das andere nicht lösen? Nicht: Was steht in deinem Lebenslauf. Sondern: Was
-          bringt dich auf den Punkt.
-        </p>
-        <p>
-          <strong>Kanal wählen.</strong> Wo erreichst du deine Zielgruppe? Direktbewerbung,
-          LinkedIn, Netzwerk, Headhunter? Nicht jeder Kanal passt zu jedem Segment.
-        </p>
-        <p>
-          <strong>Timing beachten.</strong> Wenn ein Unternehmen wächst, eine Führungskraft
-          wechselt oder eine Stelle neu ausgeschrieben wird, ist der Bedarf am größten.
+          Was Unternehmen im Direktmarketing seit Jahrzehnten professionell betreiben, wenden die
+          meisten Jobsuchenden nicht an. Und lassen dadurch Potential liegen.
         </p>
 
-        <h2>Jetzt ersetze &bdquo;Zielgruppe&ldquo; durch &bdquo;Arbeitgeber&ldquo;</h2>
-        <p>Plötzlich liest sich das anders.</p>
+        <h2>Die vier Prinzipien des Direktmarketings, angewendet auf die Jobsuche</h2>
         <p>
-          Wer in seiner Jobsuche keine klare Zielgruppe hat, bewirbt sich auf alles, was halbwegs
-          passt. Das Ergebnis: Standardanschreiben, generische Profile, niedrige Rücklaufquoten.
+          <strong>Zielgruppe kennen.</strong> Im Direktmarketing beginnt alles mit der Frage: Wen
+          will ich erreichen? Für Jobsuchende bedeutet das: Welche Unternehmen, welche Rollen,
+          welche Entscheider? Ein Kandidat, der sich bei 40 Unternehmen in drei verschiedenen
+          Branchen bewirbt, hat keine Zielgruppe. Er hat eine Hoffnung.
         </p>
         <p>
-          Wer keine scharfe Botschaft hat, verlässt sich auf seinen Lebenslauf als Dokument. Aber
-          ein Lebenslauf zeigt, was du gemacht hast, nicht wer du bist und was du kannst. Das ist
-          der Unterschied zwischen einer Produktliste und einem Wertversprechen.
+          <strong>Botschaft schärfen.</strong> Ein gutes Direktmarketing-Angebot zeigt nicht, was
+          das Produkt ist, sondern was es für den Empfänger löst. Ein Lebenslauf ist eine
+          Produktliste. Ein überzeugendes Angebot ist eine Antwort auf die Frage: Welches Problem
+          löse ich, das dieses Unternehmen gerade hat? Aus &bdquo;10 Jahre im Vertrieb&ldquo; wird:{" "}
+          &bdquo;Ich habe Enterprise-Neukunden im Mittelstand aufgebaut, zuletzt mit einem Team von
+          8 Mitarbeitenden. Das ist es, was ihr gerade sucht.&ldquo;
         </p>
         <p>
-          Wer das Timing ignoriert, bewirbt sich in einem Moment, in dem kein Bedarf besteht,
-          und wundert sich über Absagen.
+          <strong>Kanal wählen.</strong> Im Marketing werden Kanäle nach Zielgruppe und Botschaft
+          gewählt, nicht nach Verfügbarkeit. In der Jobsuche: LinkedIn-Direktansprache für
+          Netzwerkkontakte, Direktbewerbung für gezielt ausgewählte Unternehmen, Headhunter für
+          spezialisierte Positionen. Wer überall gleichzeitig aktiv ist, ist nirgends wirklich
+          präsent.
+        </p>
+        <p>
+          <strong>Timing beachten.</strong> Im Direktmarketing werden Kampagnen auf Bedarf
+          ausgerichtet: Wenn ein Unternehmen eine neue Marktregion aufbaut, eine Abteilung
+          reorganisiert oder ein Wettbewerber übernommen wird, ist der Bedarf an Expertise am
+          größten. Wer diese Signale liest und im richtigen Moment reagiert, hat einen Vorteil,
+          der nichts mit Qualifikation zu tun hat.
         </p>
 
         <h2>Der entscheidende Unterschied: keine Daten, kein Feedback</h2>
         <p>
-          Im Marketing gibt es Metriken. Öffnungsrate, Klickrate, Conversion. Du weißt, was
-          funktioniert. Du testest, optimierst, lernst.
+          Im Marketing gibt es Metriken. Öffnungsrate, Klickrate, Conversion. Was nicht
+          funktioniert, wird angepasst.
         </p>
         <p>
-          In der Jobsuche fliegst du blind. Keine Öffnungsrate für dein Anschreiben. Kein
-          Feedback, warum die Absage kam. Das führt dazu, dass viele Jobsuchende dieselben Fehler
-          immer wieder machen, ohne es zu wissen, und dass gute Kandidaten an schlechter
-          Kommunikation scheitern, nicht an fehlendem Können.
+          In der Jobsuche gibt es dieses Feedback nicht. Keine Rückmeldung, ob das Anschreiben
+          gelesen wurde. Kein Hinweis, warum die Absage kam. Das Ergebnis: Viele Jobsuchende
+          wiederholen denselben Ansatz, ohne zu verstehen, was ihn schwächt.
+        </p>
+        <p>
+          Wer aus dem Direktmarketing kommt und Bewerbungsunterlagen liest, erkennt das Muster
+          sofort. Selbst Kandidaten, die Personalisierung und zielgruppengerechte Ansprache als
+          Kernkompetenz angeben, schicken Anschreiben, die außer dem Adressfeld nichts
+          Stellenspezifisches enthalten. Das ist, als würde ein Direktmarketer jedem Kunden exakt
+          dieselbe Botschaft schicken und auf eine Reaktion hoffen.
         </p>
 
-        <h2>Was das bedeutet</h2>
+        <h2>Was das für die Karriere bedeutet</h2>
         <p>
           Eine Bewerbung ist keine Bitte. Sie ist ein Angebot. Und ein gutes Angebot ist relevant,
           klar formuliert, gut getimed und auf die Zielgruppe zugeschnitten.
         </p>
         <p>
-          Das ist keine Dehumanisierung des Prozesses. Es ist das Gegenteil: Wer sich die Mühe
-          macht, sein Angebot wirklich zu schärfen, zeigt mehr Ernsthaftigkeit als jemand, der
-          mit Massenversand hofft, dass irgendwo etwas hängen bleibt.
+          Das ist keine Vereinfachung des Prozesses. Es ist eine Präzisierung. Wer sich die Mühe
+          macht, sein Angebot wirklich zu schärfen, zeigt mehr Ernsthaftigkeit als jemand, der mit
+          Massenversand hofft, dass irgendwo etwas hängen bleibt.
         </p>
         <p>
-          Genau das ist der Gedanke hinter Karriva: Die strategische Disziplin, die im
-          Kundenbeziehungsmanagement selbstverständlich ist, auf die Jobsuche übertragen.{" "}
+          Genau das ist der Ansatz von{" "}
           <a href="https://www.karriva.com/karriere-positionierung" target="_blank" rel="noopener noreferrer">
-            Karriere-Positionierung
-          </a>{" "}
-          statt Lebenslauf-Optimierung. Zielgenaue Anschreiben statt Vorlagen. Vorbereitung statt
-          Hoffnung.
+            Karriva
+          </a>
+          : Die strategische Disziplin des Direktmarketings auf die individuelle Jobsuche
+          übertragen. Karriere-Positionierung statt Lebenslauf-Optimierung. Zielgenaue Anschreiben
+          statt Vorlagen. Vorbereitung statt Hoffnung.
         </p>
 
         <hr />
