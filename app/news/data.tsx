@@ -15,6 +15,79 @@ export interface NewsItem {
 
 export const news: NewsItem[] = [
   {
+    slug: "karriva-berufseinsteiger-launch",
+    title: "karriva bringt KI-gestützte Karrierevorbereitung speziell für Berufseinsteiger und Absolventen",
+    date: "12. August 2026",
+    dateSort: "2026-08-12",
+    category: "Pressemitteilung",
+    excerpt:
+      "karriva bringt ein dediziertes Angebot für Berufseinsteiger, Absolventen und Young Professionals auf den Markt: eigene Preispläne, Einsteiger-Features und Android-App.",
+    body: (
+      <>
+        <p>
+          Köln, 12. August 2026. Die Karriere-App karriva (karriva.com) bringt ab sofort ein
+          dediziertes Angebot für Berufseinsteiger, Absolventen und Young Professionals auf den
+          Markt. Gleichzeitig ist die App im Google Play Store verfügbar. Eine iOS-Version befindet
+          sich derzeit im App-Store-Review.
+        </p>
+        <p>
+          KI hat im Bewerbungsprozess Einzug gehalten: Laut einer Studie von softgarden (2025,
+          n=6.929 Bewerbende) nutzen bereits 43,2 Prozent der Bewerbenden KI-Tools für ihre
+          Bewerbung, weitere 30,3 Prozent können sich das vorstellen. Dennoch berichten nur 34,2
+          Prozent von einem messbaren Erfolg. Drei von vier KI-Nutzenden setzen dabei auf allgemeine
+          Tools wie ChatGPT, ohne den nötigen Profil-Kontext einzubringen.
+        </p>
+        <p>
+          karriva begegnet diesem Problem mit einem Ansatz aus dem Direktmarketing: Eine Bewerbung
+          ist eine Kampagne in eigener Sache. Wer den eigenen Marktwert nicht kennt, kann ihn nicht
+          kommunizieren. karriva macht diesen Marktwert sichtbar, bevor Anschreiben und Jobsuche
+          beginnen: vom Lebenslauf-Upload über die Karriere-Positionierung und das Job-Matching bis
+          hin zu Anschreiben, Interview-Vorbereitung und Gehaltsverhandlung.
+        </p>
+        <p>
+          Mit dem Einsteiger-Angebot reagiert karriva auf die spezifischen Herausforderungen dieser
+          Zielgruppe: Absolventen und Berufseinsteiger stehen vor der Aufgabe, Praktika,
+          Werkstudentenstellen und erste Berufserfahrungen in eine klare Positionierung zu
+          übersetzen. Für viele ist die Jobsuche nach dem Studium die erste ernsthafte
+          Auseinandersetzung mit dem eigenen Marktwert.
+        </p>
+        <p>
+          „Berufseinsteiger unterschätzen, was sie bereits mitbringen. Eine Bewerbung funktioniert
+          wie eine Direktmarketing-Kampagne: Wer das eigene Produkt nicht kennt, kann es nicht
+          vermarkten. Genau dabei hilft karriva: die eigene Erfahrung in die Sprache des Marktes
+          übersetzen und eine Bewerbung vorbereiten, die zur konkreten Stelle passt", sagt Dirk
+          Walter, Gründer von karriva.
+        </p>
+        <p>
+          Das Einsteiger-Angebot ist mit eigenem Preismodell erhältlich: Flex für 14,90 Euro pro
+          Monat und Komplett für 24,90 Euro pro Monat, jeweils mit 14-tägiger kostenloser
+          Testphase. Ein kostenloser Einstieg ist möglich. Die App steht unter{" "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            karriva.com
+          </a>{" "}
+          sowie im Google Play Store bereit.
+        </p>
+        <h3>Über karriva</h3>
+        <p>
+          karriva ist ein KI-gestützter Karrierecoach für den deutschsprachigen Markt. Die Plattform
+          begleitet Stellensuchende durch den vollständigen Bewerbungsprozess: Profil-Analyse,
+          Karriere-Positionierung, Job-Matching, Anschreiben, Interview-Vorbereitung und
+          Gehaltsverhandlung. karriva ist seit Juli 2026 verfügbar und richtet sich an Fach- und
+          Führungskräfte sowie Berufseinsteiger in der DACH-Region.
+        </p>
+        <h3>Pressekontakt</h3>
+        <p>
+          Dirk Walter, Gründer karriva<br />
+          <a href="mailto:dirk.walter@karriva.com">dirk.walter@karriva.com</a>
+          {" · "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            karriva.com
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
     slug: "bewerbung-direktmarketing-kampagne",
     title: "Eine Bewerbung ist eine Direktmarketing-Kampagne in eigener Sache",
     date: "14. Juli 2026",
