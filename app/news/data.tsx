@@ -15,6 +15,71 @@ export interface NewsItem {
 
 export const news: NewsItem[] = [
   {
+    slug: "karriva-business-innovator-2026",
+    title: "Kölner Karriere-KI karriva auf der DMEXCO als Business Innovator ausgezeichnet",
+    date: "6. Oktober 2026",
+    dateSort: "2026-10-06",
+    category: "Pressemitteilung",
+    excerpt:
+      "Deutsches Innovationsinstitut und Magazin DUP Unternehmer würdigen die KI-gestützte Bewerbungsplattform karriva als Business Innovator.",
+    body: (
+      <>
+        <p>
+          Köln, 6. Oktober 2026. Das Kölner Unternehmen karriva ist im Rahmen der DMEXCO in Köln
+          als Business Innovator ausgezeichnet worden. Die Auszeichnung wird vom Deutschen
+          Innovationsinstitut gemeinsam mit dem Magazin DUP Unternehmer vergeben und würdigt
+          Unternehmen, die mit neuen Ansätzen auf aktuelle Marktentwicklungen reagieren. karriva
+          wurde für seine KI-gestützte Karriere-App nominiert, die Fach- und Führungskräfte sowie
+          Berufseinsteiger durch den gesamten Bewerbungsprozess begleitet.
+        </p>
+        <p>
+          karriva begleitet Nutzer durch den gesamten Bewerbungsprozess: von der
+          Karriere-Positionierung über Job-Matching und das Anschreiben bis zur
+          Interview-Vorbereitung und Gehaltsverhandlung. Anders als viele Tools, die direkt bei
+          der Texterstellung ansetzen, startet karriva mit einer Analyse der eigenen
+          Positionierung, bevor überhaupt eine Bewerbungsunterlage entsteht. Der Ansatz folgt
+          einem Direktmarketing-Gedanken: wer sich bewirbt, tritt mit einem Angebot an einen Markt
+          heran, und wie im Marketing entscheidet die Positionierung darüber, ob eine Botschaft
+          überhaupt ankommt. Erst wenn klar ist, wofür ein Profil steht, baut karriva Anschreiben,
+          Interview-Vorbereitung und Gehaltsverhandlung darauf auf. Die App ist seit Juli 2026 live
+          und richtet sich speziell an den deutschsprachigen Markt.
+        </p>
+        <p>
+          Bei der Preisverleihung tauschte sich Gründer Dirk Walter auch mit Vertretern anderer
+          ausgezeichneter Unternehmen aus, deren Geschäftsmodelle von KI-Agenten im Vertrieb bis zu
+          automatisiertem Qualitätsmanagement reichen, ein Hinweis darauf, wie branchenübergreifend
+          Unternehmen KI-Technologie inzwischen in alltägliche Anwendungen übersetzen.
+        </p>
+        <p>
+          „Die meisten Tools setzen direkt beim Text an", sagt Dirk Walter, Gründer von karriva.
+          „Wir setzen eine Stufe davor an: bei der Frage, wofür ein Profil eigentlich steht. Erst
+          aus dieser Positionierung heraus funktioniert echte Personalisierung mit KI, nicht nur
+          schnellere Formulierungen. Das ist für uns der eigentliche Unterschied."
+        </p>
+        <h3>Über karriva</h3>
+        <p>
+          karriva ist eine KI-gestützte Karriere-App für den deutschsprachigen Markt. Die Plattform
+          unterstützt Fach- und Führungskräfte sowie Berufseinsteiger beim gesamten
+          Bewerbungsprozess: von der Karriere-Positionierung über Job-Matching und Anschreiben bis
+          zur Interview-Vorbereitung und Gehaltsverhandlung. karriva ist seit Juli 2026 live unter{" "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            karriva.com
+          </a>
+          .
+        </p>
+        <h3>Pressekontakt</h3>
+        <p>
+          Dirk Walter, Gründer karriva<br />
+          <a href="mailto:dirk.walter@karriva.com">dirk.walter@karriva.com</a>
+          {" · "}
+          <a href="https://www.karriva.com" target="_blank" rel="noopener noreferrer">
+            karriva.com
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
     slug: "karriva-berufseinsteiger-launch",
     title: "karriva bringt KI-gestützte Karrierevorbereitung speziell für Berufseinsteiger und Absolventen",
     date: "12. August 2026",
